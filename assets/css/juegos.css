@@ -12,10 +12,11 @@ body {
 }
 
 .contenedor {
-	width: 90%;
-	max-width: 1200px;
+	width: 100%;
+	/* max-width: 1400px; */
 	margin: auto;
 	padding: 40px 0;
+	background-color: black;
 
 	display: grid;
 	grid-template-columns: 3fr 1fr;
@@ -31,6 +32,7 @@ body {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 20px;
+	padding-left: 1rem;
 }
 
 .card {
@@ -65,6 +67,10 @@ body {
 	justify-content: space-between;
 }
 
+.banner h3{
+	color: white;
+}
+
 .banner ul {
 	list-style: none;
 }
@@ -72,6 +78,7 @@ body {
 .banner ul li {
 	margin: 15px;
 	font-weight: bold;
+	color: lightslategray;
 }
 
 .banner .boton {
