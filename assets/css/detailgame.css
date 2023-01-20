@@ -30,6 +30,7 @@ body {
 .contenedor-sideimg{
     gap: 1rem;
     margin-top: 1rem;
+    width: 100%;
 
     display: grid;
 }
@@ -43,6 +44,8 @@ body {
     .contenedor-sideimg{
         gap: 1rem;
         margin-top: 1rem;
+        width: 12rem;
+        height: 18rem;
     
         display: flex;
     }
