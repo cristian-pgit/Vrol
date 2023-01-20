@@ -49,6 +49,19 @@ body {
 	text-shadow: 1px 1px 2px rgb(255, 251, 0), 0 0 1em rgb(255, 123, 0), 0 0 0.2em blue;
 }
 
+.linkj{
+	color: white;
+	text-shadow: 1px 1px 2px rgb(255, 251, 0), 0 0 1em rgb(255, 123, 0), 0 0 0.2em blue;
+}
+.linkj:hover{
+	color: red;
+	text-shadow: 1px 1px 2px rgb(255, 251, 0), 0 0 1em rgb(255, 123, 0), 0 0 0.2em blue;
+}
+.linkj:visited{
+	color: white;
+	text-shadow: 1px 1px 2px rgb(255, 251, 0), 0 0 1em rgb(255, 123, 0), 0 0 0.2em blue;
+}
+
 .banner {
 	border-radius: 10px;
 	text-align: center;
