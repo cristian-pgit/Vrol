@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comunidad VROL</title>
-    <link rel="stylesheet" href="/assets/css/juegos.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mukta&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/assets/img/V rol.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/juegos.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mukta&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets\img\LogoVrol.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
-                <img src="/assets/img/V rol.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" id="logohead">
+                <img src="assets\img\LogoVrol.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" id="logohead">
               <a class="navbar-brand" href="index.html">Comunidad VROL</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,69 +22,115 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="/juegos.html">Juegos</a>
+                    <a class="nav-link" href="juegos.html">Juegos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Links Utiles
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://chat.whatsapp.com/C6RxtSo2zSb44229GhpIhH">Chat whatsapp</a></li>
+                      <li><a class="dropdown-item" href="https://web.facebook.com/groups/1168027804123411">Facebook</a></li>
+                      <li><a class="dropdown-item" href="https://discord.gg/vfs4aVQfHp">Discord</a></li>
+                      <li><a class="dropdown-item" href="https://www.instagram.com/v_rolclub/">Instagram</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="https://forms.gle/xUiy9rVNs82mVQ228">Inscripcion Junta</a></li>
+                    </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="mailto:adm@vrol.cl">Contacto</a>
+                    <a class="nav-link" href="mailto:oficialvrol@gmail.com">Contacto</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-  </header>
-    <div class="contenedor">
-		<div class="contenedor-juegos">
-			<div class="card" style="background-image: url('./assets/img/changeling.webp')">
-				<div class="textos">
-					<h3>Changeling: The Dreaming v20</h3>
-					<p>27 de Febrero</p>
+  	</header>
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-9">
+				<div class="contenedor-juegos">
+					<div class="card" style="background-image: url('assets/img/changeling.png')">
+						<div class="textos">
+							<h3>Changeling: The Dreaming v20</h3>
+							<p>S: d10</p>
+							<a href="changeling.html" class="btn btn-primary btn-sm" role="button" data-bs-toggle="button">Saber Mas</a>
+						</div>
+					</div>
+					<div class="card" style="background-image: url('assets/img/DnD5.png')">
+						<div class="textos">
+							<h3>Dungeons and Dragons</h3>
+							<p>S: d20</p>
+							<a href="" class="btn btn-primary btn-sm" role="button" data-bs-toggle="button">Saber Mas</a>
+						</div>
+					</div>
+					<div class="card" style="background-image: url('assets/img/Pathfinder1.png')">
+						<div class="textos">
+							<h3>Pathfinder</h3>
+							<p>S: d20</p>
+							<a href="#" class="btn btn-primary btn-sm" role="button" data-bs-toggle="button">Saber Mas</a>
+						</div>
+					</div>
+		
+					<div class="card" style="background-image: url('assets/img/vampire.png')">
+						<div class="textos">
+							<h3>Vampiro: La Mascarada</h3>
+							<p>S: d10</p>
+							<a href="#" class="btn btn-primary btn-sm" role="button" data-bs-toggle="button">Saber Mas</a>
+						</div>
+					</div>
+					<div class="card" style="background-image: url('assets/img/Mage20.png')">
+						<div class="textos">
+							<h3>Mage: The Ascension</h3>
+							<p>S: d10</p>
+							<a href="#" class="btn btn-primary btn-sm" role="button" data-bs-toggle="button">Saber Mas</a>
+						</div>
+					</div>
+					<div class="card" style="background-image: url('assets/img/CoCp.png')">
+						<div class="textos">
+							<h3>Call of Cthulhu</h3>
+							<p>S: Porcentual</p>
+							<a href="#" class="btn btn-primary btn-sm" role="button" data-bs-toggle="button">Saber Mas</a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="card" style="background-image: url('./assets/img/DnD5.jpg')">
-				<div class="textos">
-					<h3>Dungeons and Dragons</h3>
-					<p>"La Mina Perdida de Phandelver"</p>
-				</div>
-			</div>
-			<div class="card" style="background-image: url('./assets/img/Pathfinder1.jpeg')">
-				<div class="textos">
-					<h3>Pathfinder</h3>
-					<p>"Isekai: El Demon Lord es mi Suegra !"</p>
-				</div>
-			</div>
-
-			<div class="card" style="background-image: url('./assets/img/vampire.jpg')">
-				<div class="textos">
-					<h3>Vampiro: La Mascarada</h3>
-					<p>"Cronicas Portenas"</p>
-				</div>
-			</div>
-			<div class="card" style="background-image: url('./assets/img/Mage20.jpg')">
-				<div class="textos">
-					<h3>Mage: The Ascension</h3>
-					<p>"The Screaming Nights"</p>
-				</div>
-			</div>
-			<div class="card" style="background-image: url('./assets/img/CoC.png')">
-				<div class="textos">
-					<h3>Call of Cthulhu</h3>
-					<p>"Aventura Antartica"</p>
+			<div class="col-sm-3">
+				<div class="banner" style="background-color: black;">
+					<h3>Mesas On-Line y Presenciales</h3>
+					<ul>
+						<li>La Mina Perdida de Phandelver</li>
+						<li>The Screaming Nights</li>
+						<li>Aventura Antartica</li>
+						<li>Mahou Shoujo: Miraculous Adv</li>
+						<li>PokeRole</li>
+						<li>Mouse Guard: Aventuras ratoniles</li>
+					</ul>
+					<button class="boton" onclick="averigua();">Conoce mas</button>
 				</div>
 			</div>
 		</div>
-
-		<div class="banner" style="background-color: black;">
-			<h3>Mesas On-Line y Presenciales</h3>
-			<ul>
-				<li>La Mina Perdida de Phandelver</li>
-				<li>The Screaming Nights</li>
-				<li>Aventura Antartica</li>
-				<li>Mahou Shoujo: Miraculous Adv</li>
-				<li>PokeRole</li>
-				<li>Mouse Guard: Aventuras ratoniles</li>
-			</ul>
-			<button class="boton" onclick="averigua();">Conoce mas</button>
-		</div>
+		<div class="row">
+			<div class="col">
+			  <div class="container-fluid" id="footer">
+				<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+				  <div class="col-md-4 d-flex align-items-center">
+					<a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+					  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+					</a>
+					<span class="mb-3 mb-md-0 text-muted"><p id="firma">© Naitsirc, Inc</p> </span>
+				  </div>
+			  
+				  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+					<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+					<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+					<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+				  </ul>
+				</footer>
+			  </div>
+			  </div>
+			</div>
+	  
+		  </div>
 	</div>
 <script src="assets\js\main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

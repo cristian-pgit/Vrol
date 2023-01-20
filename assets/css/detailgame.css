@@ -1,0 +1,49 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.bg-body-tertiary {
+    opacity: 1;
+    padding: 0;
+}
+
+body {
+	background: black;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	min-height: 100vh;
+}
+
+.container-fluid{
+	background-color: black;
+    text-align: justify;
+    background-image: url(assets\img\chan2.png);
+    
+}
+
+#btn-vol{
+    margin: 1rem;
+}
+
+.contenedor-sideimg{
+    gap: 1rem;
+    margin-top: 1rem;
+
+    display: grid;
+}
+#stPic{
+    margin-top: 20rem;
+}
+@media screen and (max-width:576px) {
+    #stPic{
+        margin-top: 0;
+    }
+    .contenedor-sideimg{
+        gap: 1rem;
+        margin-top: 1rem;
+    
+        display: flex;
+    }
+}
