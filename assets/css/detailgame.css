@@ -127,3 +127,14 @@ body {
 		display: none;
 	}
 }
+
+@media screen and (max-width: 475px){
+    #min{
+        display: none;
+    }
+	#contenedor-sideimg img{
+        width: 180px !important;
+        height: 230px !important;
+        margin: 0;
+    }
+}
