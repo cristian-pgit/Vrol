@@ -149,12 +149,12 @@ body {
 }
 
 #homl{
-	color: grey;
+	color: lightgrey;
 	font-weight: 700;
 }
 
 #footer{
-	color: grey;
+	color: lightgrey;
 }
 
 @media screen and (max-width: 900px) {

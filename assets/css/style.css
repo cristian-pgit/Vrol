@@ -58,14 +58,13 @@ iframe{
 
 #footer{
     width: 100%;
-    color: darkgrey;
+    color: lightgrey;
 } 
 
 #homl{
-	color: grey;
+	color: lightgrey;
 	font-weight: 700;
-    border-color: darkgray;
-    border-width: 2px;
+    
 }
 
 @media screen and (max-width: 567px) {

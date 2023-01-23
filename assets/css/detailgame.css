@@ -63,19 +63,17 @@ body {
 }
 
 #homl{
-    color: darkgray !important;
+    color: lightgray !important;
 }
 
 #footer{
     width: 100%;
-    color: grey;
+    color: lightgrey;
 } 
 
 #homl{
-	color: grey;
+	color: lightgrey;
 	font-weight: 700;
-    border-color: darkgray;
-    border-width: 2px;
 }
 
 .btn-primary{
