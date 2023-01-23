@@ -83,3 +83,10 @@ iframe{
 		display: none;
 	}
 }
+@media screen and (max-width: 475px){
+    #min{
+        display: none;
+    }
+}
+
+
