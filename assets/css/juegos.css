@@ -16,6 +16,23 @@ body {
 	min-height: 100vh;
 }
 
+#reloj1{
+	display: none;
+	font-size: 18px;
+	color: grey;
+}
+#reloj2{
+	position: relative;
+	right: 0;
+	font-size: 18px;
+	color: grey;	
+}
+#lahr{
+	color: gray;
+	margin-top: 14px;
+	text-align: center;
+}
+
 .container-fluid{
 	background-color: black;
 }
@@ -87,6 +104,11 @@ body {
 	font-weight: bold;
 	color: lightslategray;
 }
+.banner ul li:hover {
+	margin: 15px;
+	font-weight: bold;
+	color: red;
+}
 
 .banner .boton {
 	background: #FFD600;
@@ -111,5 +133,13 @@ body {
 }
 
 @media screen and (max-width: 567px) {
-	
+	#reloj1{
+		display: contents;
+	}
+	#reloj2{
+		display: none;
+	}
+	#lahr{
+		display: none;
+	}
 }

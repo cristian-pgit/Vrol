@@ -16,37 +16,80 @@ body {
 	min-height: 100vh;
 }
 
+#reloj1{
+	display: none;
+	font-size: 18px;
+	color: grey;
+}
+#reloj2{
+	position: relative;
+	right: 0;
+	font-size: 18px;
+	color: grey;	
+}
+#lahr{
+	color: gray;
+	margin-top: 14px;
+	text-align: center;
+}   
+
 .container-fluid{
 	background-color: black;
     text-align: justify;
-    background-image: url(assets\img\chan2.png);
-    
 }
 
 #btn-vol{
     margin: 1rem;
 }
 
-.contenedor-sideimg{
+#contenedor-sideimg{
     gap: 1rem;
     margin-top: 1rem;
     width: 100%;
 
     display: grid;
 }
-#stPic{
-    margin-top: 20rem;
+#contenedor-sideimg img{
+    width: 12rem !important;
+    height: 15rem !important;
+    margin: 0;
 }
+#st{
+    margin-top: 20rem !important;
+}
+
+#footertext{
+    color: darkgray !important;
+}
+
+#homl{
+    color: darkgray !important;
+}
+
 @media screen and (max-width:576px) {
-    #stPic{
-        margin-top: 0;
-    }
-    .contenedor-sideimg{
+    #contenedor-sideimg{
+        display: flex;
+        flex-wrap: wrap;
         gap: 1rem;
         margin-top: 1rem;
-        width: 12rem;
-        height: 18rem;
-    
-        display: flex;
     }
+    #contenedor-sideimg img{
+        width: 5rem !important;
+        height: 6rem !important;
+        margin: 0;
+    }
+
+    #st{
+       margin-top: 0 !important;
+    }
+
+    #reloj1{
+		display: contents;
+	}
+	#reloj2{
+		display: none;
+	}
+    #lahr{
+		display: none;
+	}
 }

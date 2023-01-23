@@ -16,6 +16,7 @@
             <div class="container-fluid">
                 <img src="assets\img\LogoVrol.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" id="logohead">
               <a class="navbar-brand" href="index.html">Comunidad VROL</a>
+			  <div id="reloj1"></div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -41,6 +42,7 @@
                     <a class="nav-link" href="mailto:oficialvrol@gmail.com">Contacto</a>
                   </li>
                 </ul>
+				<div class="col-6"></div><div class="col-2"><p class="align-items-center justify-content-center" id="lahr">   La hora actual es:</p></div><div id="reloj2" class="text-right"></div>
               </div>
             </div>
           </nav>
@@ -53,18 +55,19 @@
 						
 						<div class="textos">
 							<h3><a class="linkj"  href="changeling.html">Changeling: The Dreaming v20</a></h3>
-							<p>S: d10</p>
+							<p>S: Sistema Narrativo(d10)</p>
 						</div>		
 					</div>
 					<div class="card" style="background-image: url('assets/img/DnD5.png')">
 						<div class="textos">
-							<h3><a class="linkj"  href="#">Dungeons and Dragons</a></h3>
+							<h3><a class="linkj"  href="dnd.html">Dungeons and Dragons</a></h3>
 							<p>S: d20</p>
+							<a href="dnd.html" class="btn btn-primary btn-sm" role="button" data-bs-toggle="button" id="btn-vol">Conocer mas</a>
 						</div>
 					</div>
 					<div class="card" style="background-image: url('assets/img/Pathfinder1.png')">
 						<div class="textos">
-							<h3><a class="linkj" href="#">Pathfinder</a></h3>
+							<h3><a class="linkj" href="pathfinder.html">Pathfinder</a></h3>
 							<p>S: d20</p>
 						</div>
 					</div>
@@ -72,19 +75,19 @@
 					<div class="card" style="background-image: url('assets/img/vampire.png')">
 						<div class="textos">
 							<h3><a class="linkj"  href="vampire.html">Vampiro: La Mascarada</a></h3>
-							<p>S: d10</p>
+							<p>S: Sistema Narrativo(d10)</p>
 						</div>
 					</div>
 					<div class="card" style="background-image: url('assets/img/Mage20.png')">
 						<div class="textos">
-							<h3><a class="linkj"  href="#">Mage: The Ascension</a></h3>
-							<p>S: d10</p>
+							<h3><a class="linkj"  href="mage.html">Mage: The Ascension</a></h3>
+							<p>S: Sistema Narrativo(d10)</p>
 						</div>
 					</div>
 					<div class="card" style="background-image: url('assets/img/CoCp.png')">
 						<div class="textos">
-							<h3><a class="linkj"  href="#">Call of Cthulhu</a></h3>
-							<p>S: Porcentual</p>
+							<h3><a class="linkj"  href="coc.html">Call of Cthulhu</a></h3>
+							<p>S: BRP</p>
 						</div>
 					</div>
 				</div>
@@ -108,19 +111,20 @@
 			<div class="col">
 			  <div class="container-fluid" id="footer">
 				<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-				  <div class="col-md-4 d-flex align-items-center">
-					<a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-					  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+					<p class="col-md-4 mb-0 text-muted" id="footertext">© Naitsirc, Inc 2023. </p>
+				
+					<a href="/" class="col-md-3 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+					  <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
 					</a>
-					<span class="mb-3 mb-md-0 text-muted"><p id="firma">© Naitsirc, Inc</p> </span>
-				  </div>
-			  
-				  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-					<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-					<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-					<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-				  </ul>
-				</footer>
+					<ul class="nav col-md-5 justify-content-end">
+					  <li class="nav-item"><a href="index.html" class="nav-link px-2" id="homl">Home</a></li>
+					  <li class="nav-item"><p class="nav-link px-2 text-muted">Siguenos en nuestras RR.SS.</p></li>
+					  <li class="nav-item"><a href="https://web.facebook.com/groups/1168027804123411" class="nav-link px-2 text-muted"><img src="assets\img\logofb.webp" alt="Logo" width="20" height="20" class="d-inline-block align-text-top" id="logohead"></a></li>
+					  <li class="nav-item"><a href="https://chat.whatsapp.com/C6RxtSo2zSb44229GhpIhH" class="nav-link px-2 text-muted"><img src="assets\img\logowa.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top" id="logohead"></a></li>
+					  <li class="nav-item"><a href="https://discord.gg/vfs4aVQfHp" class="nav-link px-2 text-muted"><img src="assets\img\logodiscord.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top" id="logohead"></a></li>
+					  <li class="nav-item"><a href="https://www.instagram.com/v_rolclub/" class="nav-link px-2 text-muted"><img src="assets\img\logoinsta.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top" id="logohead"></a></li>
+					</ul>
+				  </footer>
 			  </div>
 			  </div>
 			</div>
@@ -128,7 +132,7 @@
 		  </div>
 	</div>
 <script src="assets\js\main.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
